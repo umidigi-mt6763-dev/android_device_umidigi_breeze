@@ -9,6 +9,7 @@ Build.BRAND=MTK
 
 # Display
 ro.opengles.version=196610
+debug.cpurend.vsync=false
 
 # Fdsan
 debug.fdsan=warn_once

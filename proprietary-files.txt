@@ -461,7 +461,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.pq@2.2-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libMtkOmxCore.so
 vendor/lib64/libMtkSpeechEnh.so
-vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtk_drvb.so
 vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/libmtkcam.featurepipe.capture.so
@@ -564,9 +563,8 @@ vendor/lib/hw/power.mt6763.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6763.so
 
-# QMI
-
 # Radio
+vendor/lib64/libmtk-ril.so|688234cb10401836f7eb287e18dcb479
 
 # Sensors
 vendor/lib64/hw/sensors.mt6763.so

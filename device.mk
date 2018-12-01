@@ -171,6 +171,12 @@ PRODUCT_PACKAGES += \
     fstab.mt6763 \
     ueventd.mt6763.rc
 
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl

@@ -280,5 +280,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.ebpf.supported=false \
     bpf.progs_loaded=1
 
+# Properties
+-include $(LOCAL_PATH)/mtk_services_log.mk
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/umidigi/breeze/breeze-vendor.mk)

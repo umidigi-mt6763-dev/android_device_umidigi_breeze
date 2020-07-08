@@ -124,6 +124,9 @@ ro.vendor.mtk_f2fs_enable=0
 ro.vendor.mtk_emmc_support=1
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# SurfaceFlinger
+ro.surface_flinger.running_without_sync_framework=true
+
 # TEE
 ro.hardware.gatekeeper=itrusty
 ro.hardware.keystore=itrusty

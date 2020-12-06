@@ -382,6 +382,9 @@ vendor/lib64/libOpenCL.so
 # IMS
 vendor/lib64/libmtk-ril.so|688234cb10401836f7eb287e18dcb479
 
+# IMS Treble - from treble.phh.me
+-priv-app/ImsService/ImsService.apk|a2ea43af16be841005db332184fa444a98206e3b
+
 # Keymaster
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc

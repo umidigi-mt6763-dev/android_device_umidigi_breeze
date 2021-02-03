@@ -345,12 +345,10 @@ vendor/lib64/vendor.mediatek.hardware.gnss@1.1.so
 # GPS-Hardware
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.itrusty.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib64/hw/gatekeeper.itrusty.so
+vendor/lib64/hw/libSoftGatekeeper.so
 
 # Graphics
 vendor/lib/egl/egl.cfg
@@ -818,7 +816,6 @@ vendor/lib/hw/dfps.mt6763.so
 vendor/lib/hw/flp.default.so
 vendor/lib/hw/kmsetkey.default.so
 vendor/lib/hw/kmsetkey.itrusty.so
-vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib/lib3a.ae.core.so
 vendor/lib/lib3a.ae.so
 vendor/lib/lib3a.af.core.so
@@ -932,7 +929,6 @@ vendor/lib64/hw/dfps.mt6763.so
 vendor/lib64/hw/flp.default.so
 vendor/lib64/hw/kmsetkey.default.so
 vendor/lib64/hw/kmsetkey.itrusty.so
-vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so

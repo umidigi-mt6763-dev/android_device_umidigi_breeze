@@ -1089,8 +1089,16 @@ service osi /system/bin/osi
     oneshot
     #seclabel u:r:osi:s0
 
-# Toggle airplane mode on and off on boot to enable volte.
-# This hack needs ImsInit commit to request ims on boot to work properly.
+service charger /bin/chargeonlymode
+    class charger
+    critical
+    #seclabel u:r:charger:s0
+    group system graphics
+    seclabel u:r:healthd:s0
+
+on boot
+    # Toggle airplane mode on and off on boot to enable volte.
+    # This hack needs ImsInit commit to request ims on boot to work properly.
 
     exec - root -- /system/bin/sh -c "sleep 3"
     exec - root -- /system/bin/sh -c "settings put global airplane_mode_on 1"

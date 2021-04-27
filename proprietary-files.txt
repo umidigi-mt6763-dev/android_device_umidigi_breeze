@@ -617,11 +617,6 @@ vendor/app/EmCamera/lib/arm64/libem_camera_jni.so
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/power_native_test_v_2_0
 vendor/bin/hw/vtservice_hidl
-vendor/bin/aee_aedv
-vendor/bin/aee_aedv64
-vendor/bin/aee_archivev
-vendor/bin/aee_dumpstatev
-vendor/bin/aeev
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
@@ -683,8 +678,6 @@ vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
 vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
-vendor/etc/init/aee_aedv.rc
-vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
@@ -764,7 +757,6 @@ vendor/etc/security/cacerts_supl/c542733d.0
 vendor/etc/security/cacerts_supl/f336e3d1.0
 vendor/etc/DSM.xml
 vendor/etc/DSM_config.xml
-vendor/etc/aee-config
 vendor/etc/agps_profiles_conf2.xml
 vendor/etc/ams_aal_config.xml
 vendor/etc/aurisys_config.xml

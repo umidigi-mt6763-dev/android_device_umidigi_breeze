@@ -13,8 +13,6 @@ import /vendor/etc/init/microtrust.storage.file.rc
 import /vendor/etc/init/microtrust.storage.persist.rc
 import /vendor/etc/init/microtrust.storage.proinfo.rc
 import /vendor/etc/init/microtrust.storage.rpmb.rc
-import /vendor/etc/init/hw/init.aee.rc
-import /system/etc/init/hw/init.aee.rc
 import /vendor/etc/init/hw/factory_init.project.rc
 
 on early-init

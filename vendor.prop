@@ -2,9 +2,6 @@
 # AAL
 ro.vendor.mtk_aal_support=1
 
-# AEE
-ro.vendor.have_aee_feature=1
-
 # Audio
 ro.vendor.mtk_audio_alac_support=1
 ro.vendor.mtk_besloudness_support=1

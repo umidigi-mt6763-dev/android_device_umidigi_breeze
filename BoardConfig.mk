@@ -90,3 +90,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # SPL
 VENDOR_SECURITY_PATCH := 2021-04-05
+
+# SEPolicy
+include device/mediatek/sepolicy_vndr/SEPolicy.mk

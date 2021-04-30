@@ -1,5 +1,17 @@
 # All blobs from A5_Pro-user 9 PPR1.180610.011 1616484719 release-keys, unless pinned
 
+# AEE
+vendor/lib/libdirect-coredump.so
+vendor/lib64/libdirect-coredump.so
+
+# AEE - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2101131254:user/release-keys
+vendor/lib/libaedv.so|68eb76e22650e6f7b09f6c1db32a72851445789f
+vendor/lib/libladder.so|b3161af9c1ae115b467ed6d210355348717145c8
+vendor/lib/libudf.so|0910236ff7b602a7ee4b6cf5472b5cff0d301f52
+vendor/lib64/libaedv.so|bd09673530e80f6cde27d91229b6df6394191053
+vendor/lib64/libladder.so|47ab171fde2026c25c0c63f0af9bfcee3fcd74a9
+vendor/lib64/libudf.so|00563b48abe3e19856133a87775363a9ef98c049
+
 # Audio
 vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/libaudio_param_parser-vnd.so
@@ -814,7 +826,6 @@ vendor/lib/libJpgEncPipe.so
 vendor/lib/libSwJpgCodec.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
-vendor/lib/libaedv.so
 vendor/lib/libapmonitor_vendor.so
 vendor/lib/libasn1c_core_vendor.so
 vendor/lib/libasn1c_mapi_vendor.so
@@ -831,7 +842,6 @@ vendor/lib/libcurl-ss.so
 vendor/lib/libcurl_xcap_md.so
 vendor/lib/libcustom_nvram.so
 vendor/lib/libcvsd_mtk.so
-vendor/lib/libdirect-coredump.so
 vendor/lib/libdpframework.so
 vendor/lib/libfeature.stereo.provider.so
 vendor/lib/libfgauge_gm30.so
@@ -856,7 +866,6 @@ vendor/lib/libion_ulit.so
 vendor/lib/libipsec_ims_shr.so
 vendor/lib/libitrusty.so
 vendor/lib/libjpeg-alpha_vendor.so
-vendor/lib/libladder.so
 vendor/lib/libmhalImageCodec.so
 vendor/lib/libminiui.so
 vendor/lib/libmmprofile.so
@@ -886,7 +895,6 @@ vendor/lib/libstrongswan.so
 vendor/lib/libsysenv.so
 vendor/lib/libthha.so
 vendor/lib/libtrusty.so
-vendor/lib/libudf.so
 vendor/lib/libutinterface_custom_md.so
 vendor/lib/libutinterface_md.so
 vendor/lib/libvc1dec_sa.ca7.so
@@ -925,7 +933,6 @@ vendor/lib64/libJpgEncPipe.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
 vendor/lib64/libacdk.so
-vendor/lib64/libaedv.so
 vendor/lib64/libapmonitor_vendor.so
 vendor/lib64/libasn1c_core_vendor.so
 vendor/lib64/libasn1c_mapi_vendor.so
@@ -942,7 +949,6 @@ vendor/lib64/libcurl-ss.so
 vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libcustom_nvram.so
 vendor/lib64/libcvsd_mtk.so
-vendor/lib64/libdirect-coredump.so
 vendor/lib64/libdpframework.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libem_camera_jni.so
@@ -975,7 +981,6 @@ vendor/lib64/libitrusty.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/libksensor.so
-vendor/lib64/libladder.so
 vendor/lib64/libmemsic.so
 vendor/lib64/libmfllcore.so
 vendor/lib64/libminiui.so
@@ -1007,7 +1012,6 @@ vendor/lib64/libstrongswan.so
 vendor/lib64/libsysenv.so
 vendor/lib64/libthha.so
 vendor/lib64/libtrusty.so
-vendor/lib64/libudf.so
 vendor/lib64/libui_ext.so
 vendor/lib64/libutinterface_custom_md.so
 vendor/lib64/libutinterface_md.so

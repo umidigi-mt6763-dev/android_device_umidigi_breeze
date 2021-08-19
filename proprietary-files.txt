@@ -379,6 +379,9 @@ vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/libOpenCL.so
 
+# IMS
+vendor/lib64/libmtk-ril.so|688234cb10401836f7eb287e18dcb479
+
 # Keymaster
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
@@ -613,8 +616,9 @@ vendor/lib/hw/power.mt6763.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6763.so
 
-# Radio
-vendor/lib64/libmtk-ril.so|688234cb10401836f7eb287e18dcb479
+# Radio - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2106051247:user/release-keys
+vendor/lib/libsysenv.so|9bcd41968251814c2209257173e02a8589fa8f04
+vendor/lib64/libsysenv.so|8faeff48161ab28d948256d543abdb2a8f08fa99
 
 # Sensors
 vendor/lib64/hw/sensors.mt6763.so
@@ -874,7 +878,6 @@ vendor/lib/libspeech_enh_lib.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/libssl-ss.so
 vendor/lib/libstorage_otp.so
-vendor/lib/libsysenv.so
 vendor/lib/libthha.so
 vendor/lib/libtrusty.so
 vendor/lib/libutinterface_custom_md.so
@@ -979,7 +982,6 @@ vendor/lib64/librilfusion.so
 vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/libssl-ss.so
-vendor/lib64/libsysenv.so
 vendor/lib64/libthha.so
 vendor/lib64/libtrusty.so
 vendor/lib64/libui_ext.so

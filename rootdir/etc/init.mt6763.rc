@@ -1052,7 +1052,7 @@ service mbimd /vendor/bin/mbimd debug
 # add meta_tst for ATM
 service meta_tst /vendor/bin/meta_tst
     class main
-    user radio gps system wifi
+    user system
     group radio gps system wifi audio bluetooth media
     disabled
     oneshot

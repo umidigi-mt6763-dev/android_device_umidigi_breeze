@@ -74,6 +74,7 @@ ro.vendor.mtk_pq_color_mode=1
 vendor.mtk.vdec.waitkeyframeforplay=1
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
+debug.stagefright.ccodec=0
 
 # FRP
 ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp

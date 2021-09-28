@@ -1,2 +1,5 @@
+# Device info
+/proc/devinfo(/.*)?                                                u:object_r:proc_devinfo:s0
+
 # Light
 /vendor/bin/hw/android\.hardware\.light@2\.0-service\.umidigi      u:object_r:hal_light_default_exec:s0

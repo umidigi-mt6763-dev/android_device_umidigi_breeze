@@ -208,7 +208,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.1
+    android.hardware.usb@1.1.vendor
 
 # VNDK
 PRODUCT_COPY_FILES += \

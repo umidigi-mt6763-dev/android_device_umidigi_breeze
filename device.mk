@@ -230,7 +230,8 @@ PRODUCT_COPY_FILES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.2.vendor
+    android.hardware.wifi@1.2.vendor \
+    android.hardware.wifi.supplicant@1.1.vendor
 
 PRODUCT_PACKAGES += \
     libkeystore-engine-wifi-hidl \

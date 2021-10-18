@@ -84,6 +84,9 @@ function blob_fixup() {
         vendor/lib64/hw/keystore.itrusty.so)
             "${PATCHELF}" --replace-needed "libkeymaster_messages.so" "libkeymaster_messages-v28.so" "${2}"
             ;;
+        vendor/lib64/libmtkcam_stdutils.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            ;;
         vendor/lib64/libmtk-ril.so)
             sed -i 's|AT+EAIC=2|AT+EAIC=3|g' "${2}"
             ;;

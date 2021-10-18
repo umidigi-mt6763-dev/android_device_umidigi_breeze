@@ -41,6 +41,10 @@ vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiosetting.so
 vendor/lib64/libaudiotoolkit_vendor.so
 
+# Audio - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2106051247:user/release-keys
+vendor/lib/libtinyxml.so|db901f50b694ec5791932685466ceafbd64567a5
+vendor/lib64/libtinyxml.so|b9f9790bd8704bb8d1aebc6ee78a125f7023d925
+
 # Audio-Hardware
 vendor/bin/hw/android.hardware.audio@4.0-service-mediatek
 vendor/etc/init/android.hardware.audio@4.0-service-mediatek.rc

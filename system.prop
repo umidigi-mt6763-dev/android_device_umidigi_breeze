@@ -45,6 +45,7 @@ sys.ipo.disable=1
 # Graphics
 debug.hwui.renderer=opengl
 ro.config.avoid_gfx_accel=true
+debug.sf.enable_hwc_vds=0
 
 # Radio
 persist.sys.fflag.override.settings_provider_model=false

@@ -8,6 +8,7 @@ persist.bluetooth.bluetooth_audio_hal.disabled=true
 Build.BRAND=MTK
 
 # Dex
+dalvik.vm.dex2oat64.enabled=true
 persist.bg.dexopt.enable=true
 dalvik.vm.dexopt.secondary=true
 pm.dexopt.install=speed-profile

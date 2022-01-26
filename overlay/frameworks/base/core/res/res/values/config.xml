@@ -376,6 +376,9 @@
         <item>1</item> <!-- COLOR_MODE_BOOSTED -->
     </integer-array>
 
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently in hardware. -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
+
     <!-- Flag specifying whether VoLTE is available on device -->
     <bool name="config_device_volte_available">true</bool>
 

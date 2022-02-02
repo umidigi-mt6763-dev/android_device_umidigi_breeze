@@ -203,7 +203,6 @@ vendor/lib/libcamdrv_isp.so
 vendor/lib/libcamdrv_tuning_mgr.so
 vendor/lib/libcamdrv_twin.so
 vendor/lib/libcameracustom.so
-vendor/lib/libstdc++.so
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
@@ -248,7 +247,6 @@ vendor/lib64/libcamdrv_tuning_mgr.so
 vendor/lib64/libcamdrv_twin.so
 vendor/lib64/libcameracustom.eis.so
 vendor/lib64/libcameracustom.so
-vendor/lib64/libstdc++.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so

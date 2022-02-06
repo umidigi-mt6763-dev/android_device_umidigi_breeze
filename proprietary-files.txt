@@ -766,8 +766,6 @@ vendor/etc/ecc_list_OP18.xml
 vendor/etc/mpe.conf
 vendor/etc/pildc.cfg
 vendor/etc/power_whitelist_cfg.xml
-vendor/etc/powercontable.cfg
-vendor/etc/powerscntbl.cfg
 vendor/etc/smsdbvisitor.xml
 vendor/etc/special_pws_channel.xml
 vendor/etc/spn-conf-op09.xml

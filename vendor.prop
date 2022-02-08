@@ -53,9 +53,6 @@ ro.vendor.mtk_zsdhdr_support=1
 ro.opengles.version=196610
 ro.vendor.mtk_blulight_def_support=1
 
-# SurfaceFlinger
-debug.sf.disable_backpressure=1
-
 # DRAM
 ro.vendor.mtk_config_max_dram_size=0x800000000
 

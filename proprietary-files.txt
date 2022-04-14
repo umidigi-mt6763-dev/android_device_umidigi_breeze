@@ -709,7 +709,6 @@ vendor/bin/volte_imsm_93
 vendor/bin/volte_stack
 vendor/bin/volte_ua
 vendor/bin/wfca
-vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc

@@ -11,7 +11,6 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0.vendor \
     android.hardware.soundtrigger@2.1-impl \
-    audio.a2dp.default \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \

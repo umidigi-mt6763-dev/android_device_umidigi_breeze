@@ -590,9 +590,7 @@ vendor/lib64/hw/power.mt6763.so
 # Radio
 
 # Sensors
-vendor/lib/libsensorndkbridge.so
 vendor/lib64/hw/sensors.mt6763.so
-vendor/lib64/libsensorndkbridge.so
 
 # Thermal
 -vendor/app/MTKThermalManager/MTKThermalManager.apk

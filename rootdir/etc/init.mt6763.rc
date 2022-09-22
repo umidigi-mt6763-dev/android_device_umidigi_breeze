@@ -12,9 +12,6 @@ on early-init
     write /proc/ppm/policy/userlimit_min_cpu_freq "0 1534000"
     write /sys/power/vcorefs/vcore_debug "KIR_BOOTUP 0"
 
-    mount debugfs debugfs /sys/kernel/debug
-    chmod 0755 /sys/kernel/debug
-
 on init
     # change lk_env permission
     chown root system /proc/lk_env

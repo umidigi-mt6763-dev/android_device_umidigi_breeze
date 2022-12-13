@@ -55,6 +55,12 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/bin/hw/android.hardware.audio@4.0-service-mediatek)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            ;;
+        vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            ;;
         vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek)
             "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
             "${PATCHELF}" --replace-needed "libwifi-hal.so" "libwifi-hal-mtk.so" "${2}"
@@ -89,6 +95,12 @@ function blob_fixup() {
             ;;
         vendor/lib64/libmtk-ril.so)
             sed -i 's|AT+EAIC=2|AT+EAIC=3|g' "${2}"
+            ;;
+        vendor/lib/hw/vendor.mediatek.hardware.pq@2.2-impl.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            ;;
+        vendor/lib64/hw/dfps.mt6763.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
             ;;
     esac
 }

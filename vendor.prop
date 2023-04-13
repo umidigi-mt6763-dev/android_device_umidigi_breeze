@@ -72,6 +72,7 @@ vendor.mtk.vdec.waitkeyframeforplay=1
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 debug.stagefright.ccodec=0
+media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # FRP
 ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp

@@ -9,6 +9,9 @@ Build.BRAND=MTK
 # Display
 ro.opengles.version=196610
 
+# Fdsan
+debug.fdsan=warn_once
+
 # Kernel
 ro.kernel.zio=38,108,105,16
 

@@ -66,7 +66,7 @@ ro.mtk_cta_drm_support=1
 fmradio.driver.enable=1
 
 # Media
-ro.vendor.mtk_pq_support=2
+ro.vendor.mtk_pq_support=0
 ro.vendor.mtk_pq_color_mode=1
 vendor.mtk.vdec.waitkeyframeforplay=1
 debug.stagefright.omx_default_rank.sw-audio=1

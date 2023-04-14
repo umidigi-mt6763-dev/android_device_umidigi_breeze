@@ -626,7 +626,6 @@ vendor/lib64/hw/sensors.mt6763.so
 # Thermal
 -vendor/app/MTKThermalManager/MTKThermalManager.apk
 vendor/bin/thermal
-vendor/bin/thermal_manager
 vendor/bin/thermalloadalgod
 vendor/etc/.tp/.thermal_meta.conf
 vendor/etc/.tp/.thermal_policy_00
@@ -635,7 +634,6 @@ vendor/etc/.tp/.thermal_policy_05
 vendor/etc/.tp/thermal.conf
 vendor/etc/.tp/thermal.off.conf
 vendor/etc/init/init.thermal.rc
-vendor/etc/init/init.thermal_manager.rc
 vendor/etc/init/init.thermalloadalgod.rc
 vendor/lib/libthermalalgo.so
 

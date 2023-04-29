@@ -15,6 +15,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@4.0.vendor \
     android.hardware.soundtrigger@2.1-impl \
     audio.bluetooth.default \
+    android.hardware.bluetooth.audio@2.0-impl \
     audio.r_submix.default \
     audio.usb.default \
     libaudiopreprocessing \

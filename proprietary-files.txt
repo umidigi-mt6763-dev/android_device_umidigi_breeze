@@ -348,19 +348,15 @@ vendor/lib64/vendor.mediatek.hardware.gnss@1.1.so
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
-vendor/lib/hw/gatekeeper.default.so
 vendor/lib/hw/gatekeeper.itrusty.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
-vendor/lib64/hw/gatekeeper.default.so
 vendor/lib64/hw/gatekeeper.itrusty.so
 
 # Graphics
 vendor/lib/egl/egl.cfg
 vendor/lib/egl/libGLES_mali.so
-vendor/lib/hw/vulkan.mt6763.so
 vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
-vendor/lib64/hw/vulkan.mt6763.so
 vendor/lib64/libOpenCL.so
 
 # Health

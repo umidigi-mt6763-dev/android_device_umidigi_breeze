@@ -530,8 +530,6 @@ vendor/lib64/libmtktinyxml.so
 vendor/lib64/libmtkutils.so
 vendor/lib64/vendor.mediatek.hardware.apmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.dfps@1.0.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
@@ -692,12 +690,10 @@ vendor/bin/libccu_s5k4h7_mipi_raw.pm
 vendor/bin/libccu_s5k4h8_mipi_raw.dm
 vendor/bin/libccu_s5k4h8_mipi_raw.pm
 vendor/bin/memsicp
-vendor/bin/mrdump_tool
 vendor/bin/mtkcam-debug
 vendor/bin/muxreport
 vendor/bin/netdagent
 vendor/bin/netdc
-vendor/bin/rttv
 vendor/bin/teei_loader
 vendor/bin/volte_imcb
 vendor/bin/volte_imsm_93
@@ -706,7 +702,6 @@ vendor/bin/volte_ua
 vendor/bin/wfca
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/init/audiocmdservice_atci.rc
-vendor/etc/init/bootperf.rc
 vendor/etc/init/camerahalserver.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.bip.rc

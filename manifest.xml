@@ -284,16 +284,6 @@
         <fqname>@1.0::IFpsPolicyService/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.mediatek.hardware.engineermode</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>IEmd</name>
-            <instance>EmHidlServer</instance>
-        </interface>
-        <fqname>@1.1::IEmd/EmHidlServer</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.mediatek.hardware.keymaster_attestation</name>
         <transport>hwbinder</transport>
         <version>1.1</version>

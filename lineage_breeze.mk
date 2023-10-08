@@ -22,3 +22,11 @@ PRODUCT_BRAND := UMIDIGI
 PRODUCT_MANUFACTURER := UMIDIGI
 
 PRODUCT_GMS_CLIENTID_BASE := android-agold
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE=breeze \
+    PRODUCT_NAME=breeze \
+    PRIVATE_BUILD_DESC="A5_Pro-user 9 PPR1.180610.011 1616484719 release-keys"
+
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := UMIDIGI/A5_Pro/A5_Pro:9/PPR1.180610.011/1616484719:user/release-keys

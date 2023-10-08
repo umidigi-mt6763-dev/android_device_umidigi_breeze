@@ -426,8 +426,6 @@ vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.power@2.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.power@2.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
-vendor/etc/media_codecs_mediatek_audio.xml
-vendor/etc/media_codecs_mediatek_video.xml
 vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
@@ -772,7 +770,6 @@ vendor/etc/ipsec/ipsec.d/cacerts/thawte.der
 vendor/etc/ipsec/ssl/openssl.cnf
 vendor/etc/ipsec/ipsec.conf
 vendor/etc/ipsec/strongswan.conf
-vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt
 vendor/etc/security/cacerts_supl/lab/18dc3a8d.0
 vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0
 vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1
@@ -810,7 +807,6 @@ vendor/etc/ecc_list_OP09.xml
 vendor/etc/ecc_list_OP12.xml
 vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
-vendor/etc/fstab.mt6763
 vendor/etc/mpe.conf
 vendor/etc/mtk_omx_core.cfg
 vendor/etc/partition_permission.sh
@@ -1060,12 +1056,5 @@ vendor/lib64/libwo.so
 vendor/lib64/libxapi_bokeh.so
 vendor/lib64/libxapi_preview.so
 vendor/lib64/libxapi_undistort.so
-vendor/res/images/lcd_test_00.png
-vendor/res/images/lcd_test_01.png
-vendor/res/images/lcd_test_02.png
-vendor/res/sound/CA2CA.ogg
-vendor/res/sound/CADetected.ogg
-vendor/res/sound/ringtone.wav
-vendor/res/sound/testpattern1.wav
 vendor/thh/ta/0401c03fc30c4dd00000000000000104.ta
 vendor/thh/ta/TAs_list

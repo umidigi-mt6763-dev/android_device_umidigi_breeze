@@ -88,6 +88,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Platform
 TARGET_BOARD_PLATFORM := mt6763
 
+# Verified Boot
+BOARD_AVB_ENABLE := false
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

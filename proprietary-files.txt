@@ -56,6 +56,8 @@ vendor/lib64/hw/audio.primary.mt6763.so
 vendor/lib64/hw/audio.r_submix.mt6763.so
 vendor/lib64/hw/audio.usb.mt6763.so
 vendor/lib64/vendor.mediatek.hardware.audio@4.1.so
+lib/android.hardware.audio.common-util.so:vendor/lib/android.hardware.audio.common-util.so
+lib64/android.hardware.audio.common-util.so:vendor/lib64/android.hardware.audio.common-util.so
 
 # Audio-configs
 vendor/etc/audio_param/AudioParamOptions.xml

@@ -795,7 +795,6 @@ vendor/etc/ecc_list_OP12.xml
 vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
 vendor/etc/mpe.conf
-vendor/etc/partition_permission.sh
 vendor/etc/pildc.cfg
 vendor/etc/power_whitelist_cfg.xml
 vendor/etc/powercontable.cfg
@@ -804,7 +803,6 @@ vendor/etc/smsdbvisitor.xml
 vendor/etc/special_pws_channel.xml
 vendor/etc/spn-conf-op09.xml
 vendor/etc/sw_config.xml
-vendor/etc/throttle.sh
 vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml

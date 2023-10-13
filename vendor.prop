@@ -180,11 +180,9 @@ mediatek.wlan.module.postfix=_consys_mt6763
 ro.mtk_tetheringipv6_support=1
 
 # Other
-ro.carrier=unknown
 ro.dalvik.vm.native.bridge=0
 ro.mediatek.chip_ver=S01
 ro.mediatek.platform=MT6763
-ro.sf.hwrotation=0
 dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
 ro.vendor.mtk_privacy_protection_lock=1
 ro.vendor.mtk_omacp_support=1

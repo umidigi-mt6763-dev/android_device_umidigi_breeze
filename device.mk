@@ -282,7 +282,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     bpf.progs_loaded=1
 
 # Properties
--include $(LOCAL_PATH)/mtk_services_log.mk
+-include $(LOCAL_PATH)/vendor_logtag.mk
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/umidigi/breeze/breeze-vendor.mk)

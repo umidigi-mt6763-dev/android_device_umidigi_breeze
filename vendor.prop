@@ -49,6 +49,12 @@ ro.vendor.mtk_cam_lomo_support=1
 ro.vendor.mtk_slow_motion_support=1
 ro.vendor.mtk_zsdhdr_support=1
 
+# Connectivity
+persist.vendor.connsys.chipid=-1
+persist.vendor.connsys.dynamic.dump=0
+persist.vendor.connsys.patch.version=-1
+vendor.connsys.driver.ready=no
+
 # Display
 ro.opengles.version=196610
 ro.vendor.mtk_blulight_def_support=1
@@ -71,6 +77,9 @@ ro.vendor.mtk_pq_color_mode=1
 vendor.mtk.vdec.waitkeyframeforplay=1
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
+ro.vendor.mtk_wmv_playback_support=1
+ro.vendor.mtk_flv_playback_support=1
+ro.have_aacencode_feature=1
 debug.stagefright.ccodec=0
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
@@ -155,6 +164,7 @@ debug.sf.early.app.duration=20000000
 debug.sf.earlyGl.sf.duration=27600000
 debug.sf.earlyGl.app.duration=20000000
 debug.sf.hwc.min.duration=17000000
+debug.sf.latch_unsignaled=1
 
 # TEE
 ro.hardware.gatekeeper=itrusty
@@ -168,6 +178,8 @@ ro.vendor.wfd.dummy.enable=1
 ro.vendor.wfd.iframesize.level=0
 
 # MediaTek
+ro.mediatek.chip_ver=S01
+ro.mediatek.platform=MT6763
 ro.vendor.mediatek.platform=MT6763
 ro.vendor.mediatek.version.branch=alps-mp-p0.mp7
 ro.vendor.mediatek.version.release=alps-mp-p0.mp7-V2.23
@@ -176,25 +188,14 @@ ro.vendor.mediatek.version.release=alps-mp-p0.mp7-V2.23
 ro.vendor.mtk_wappush_support=1
 ro.vendor.ap_info_monitor=0
 ro.vendor.wlan.gen=gen2
-persist.vendor.connsys.chipid=-1
-persist.vendor.connsys.patch.version=-1
-persist.vendor.connsys.dynamic.dump=0
-vendor.connsys.driver.ready=no
 ro.vendor.mtk_dhcpv6c_wifi=1
 mediatek.wlan.chip=CONSYS_MT6763
 mediatek.wlan.module.postfix=_consys_mt6763
 ro.mtk_tetheringipv6_support=1
 
 # Other
-ro.dalvik.vm.native.bridge=0
-ro.mediatek.chip_ver=S01
-ro.mediatek.platform=MT6763
-dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
 ro.vendor.mtk_privacy_protection_lock=1
 ro.vendor.mtk_omacp_support=1
-ro.have_aacencode_feature=1
-ro.vendor.mtk_flv_playback_support=1
-ro.vendor.mtk_wmv_playback_support=1
 ro.vendor.mtk_send_rr_support=1
 ro.mtk_bsp_package=1
 ro.mtk_enable_md1=1
@@ -209,10 +210,7 @@ persist.vendor.vt.data_simulate=0
 persist.vendor.vt.rotate_delay=500
 persist.meta.dumpdata=0
 ro.mtk_deinterlace_support=1
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heapsize=512m
 ro.sys.sdcardfs=1
-debug.sf.latch_unsignaled=1
 ro.ksc5601_write=0
 ro.email_support_ucs2=0
 ro.ussd_ksc5601=0

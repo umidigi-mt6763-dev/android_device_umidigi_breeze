@@ -16,16 +16,15 @@ $(call inherit-product, device/umidigi/breeze/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_DEVICE := breeze
 PRODUCT_NAME := lineage_breeze
-PRODUCT_BRAND := UMIDIGI
+PRODUCT_DEVICE := breeze
 PRODUCT_MANUFACTURER := UMIDIGI
+PRODUCT_BRAND := UMIDIGI
+PRODUCT_MODEL := A5_Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-agold
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=breeze \
-    PRODUCT_NAME=breeze \
     PRIVATE_BUILD_DESC="A5_Pro-user 9 PPR1.180610.011 1616484719 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop

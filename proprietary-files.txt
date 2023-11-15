@@ -304,13 +304,13 @@ vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/vendor.sw.swfingerprint@1.0.so
 
 # Firmware
-etc/firmware/customfilter/catcher_filter_1_ulwtg_n_FullLog.bin
-etc/firmware/customfilter/catcher_filter_1_ulwtg_n_PLS_PS_ONLY.bin
-etc/firmware/customfilter/catcher_filter_1_ulwtg_n_SlimLog_DspAllOff.bin
-etc/firmware/customfilter/catcher_filter_1_ulwtg_n__Default.bin
-etc/firmware/customfilter/catcher_filter_1_ulwtg_n_meta.bin
-etc/firmware/catcher_filter_1_ulwtg_n.bin
-etc/firmware/em_filter_1_ulwtg_n.bin
+etc/firmware/customfilter/catcher_filter_1_ulwtg_n_FullLog.bin:vendor/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_FullLog.bin
+etc/firmware/customfilter/catcher_filter_1_ulwtg_n_PLS_PS_ONLY.bin:vendor/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_PLS_PS_ONLY.bin
+etc/firmware/customfilter/catcher_filter_1_ulwtg_n_SlimLog_DspAllOff.bin:vendor/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_SlimLog_DspAllOff.bin
+etc/firmware/customfilter/catcher_filter_1_ulwtg_n__Default.bin:vendor/etc/firmware/customfilter/catcher_filter_1_ulwtg_n__Default.bin
+etc/firmware/customfilter/catcher_filter_1_ulwtg_n_meta.bin:vendor/etc/firmware/customfilter/catcher_filter_1_ulwtg_n_meta.bin
+etc/firmware/catcher_filter_1_ulwtg_n.bin:vendor/etc/firmware/catcher_filter_1_ulwtg_n.bin
+etc/firmware/em_filter_1_ulwtg_n.bin:vendor/etc/firmware/em_filter_1_ulwtg_n.bin
 vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin
 vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin
 vendor/firmware/WIFI_RAM_CODE_6755

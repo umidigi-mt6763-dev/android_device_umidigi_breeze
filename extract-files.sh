@@ -102,6 +102,9 @@ function blob_fixup() {
         vendor/lib64/hw/dfps.mt6763.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
             ;;
+        vendor/bin/hw/vendor.sw.swfingerprint@1.0-service)
+            "${PATCHELF}" --replace-needed "libbinder.so" "libbinder-v30.so" "${2}"
+            ;;
     esac
 }
 
